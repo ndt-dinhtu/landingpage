@@ -20,7 +20,7 @@ import Tokyo_3 from '../assets/Tokyo_3.png';
 import Tokyo_4 from '../assets/Tokyo_4.png';
 
 export default function LandingPage() {
-    // Initialize state for the selected city
+
     const [selectedCity, setSelectedCity] = useState('New York');
 
     const cities = ['New York', 'London', 'Tokyo', 'Los Angeles'];
@@ -49,7 +49,7 @@ export default function LandingPage() {
         },
         {
             id: 4,
-            title: "Mt Fuji, Hakone, Lake Ashi Cruise",
+            title: "Mt Fuji, Hakone, Lake Ashi Cruise Alababa",
             category: "New York",
             price: 50.15,
             image: London_4
@@ -77,7 +77,7 @@ export default function LandingPage() {
         },
         {
             id: 8,
-            title: "Mt Fuji, Hakone, Lake Ashi Cruise",
+            title: "Mt Fuji, Hakone, Lake Ashi Cruise Alababa",
             category: "London",
             price: 50.15,
             image: LosAngeles_4
@@ -105,7 +105,7 @@ export default function LandingPage() {
         },
         {
             id: 12,
-            title: "Mt Fuji, Hakone, Lake Ashi Cruise",
+            title: "Mt Fuji, Hakone, Lake Ashi Cruise Alababa Seno",
             category: "Tokyo",
             price: 50.15,
             image: NewYok_4
@@ -133,9 +133,9 @@ export default function LandingPage() {
         },
         {
             id: 16,
-            title: "Mt Fuji, Hakone, Lake Ashi Cruise",
+            title: "Mt Fuji, Hakone, Lake Ashi Cruise Alababa Alaka",
             category: "Los Angeles",
-            price: 50.15,
+            price: 33.15,
             image: Tokyo_4
         },
 
@@ -149,7 +149,7 @@ export default function LandingPage() {
 
     return (
         <Container className="landingpage">
-            <div className="text-center mb-4">
+            <div className="aaa text-center mb-4">
                 <p className="h3">Perfect Destination</p>
                 <p className="h5">Trending Destinations</p>
             </div>
@@ -164,7 +164,7 @@ export default function LandingPage() {
                     </button>
                 ))}
             </div>
-            <div className="listTour">
+            <div className="listTour" >
                 {filteredTours.map((item) => (
                     <Card key={item.id} className="mb-4 " style={{ width: '18rem' }}>
                         <img
@@ -173,7 +173,7 @@ export default function LandingPage() {
                             className="card-img-top"
                         />
                         <CardBody>
-                            <CardTitle tag="h5">{item.category}</CardTitle>
+                            <CardTitle className='titleTour' tag="h5"><i class="fa-solid fa-magnifying-glass"></i>{item.category}</CardTitle>
                             <div className='sale'>
 
                             </div>
