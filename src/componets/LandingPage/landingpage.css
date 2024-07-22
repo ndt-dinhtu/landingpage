@@ -1,0 +1,86 @@
+.landingpage {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.text-center p {
+    margin: 0;
+}
+
+.text-center .h3 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.text-center .h5 {
+    color: #6c757d;
+}
+
+.btn-light {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+    color: #495057;
+}
+
+.listTour {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-body {
+    padding: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.card-text strike {
+    color: #969ba1;
+}
+
+.sale::after {
+    content: '-15%';
+    position: absolute;
+    color: white;
+    background: red;
+    font-weight: 700;
+    padding: 4px 9px;
+    border-radius: 7px;
+    top: 5px;
+    left: 4px;
+}
