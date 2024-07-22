@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/landingpage/static/css/main.87a642d1.css",
+    "main.js": "/landingpage/static/js/main.38993623.js",
+    "static/media/NewYok_2.png": "/landingpage/static/media/NewYok_2.f34d3dce5b4d051a7b48.png",
+    "static/media/NewYok_3.png": "/landingpage/static/media/NewYok_3.50dacdb7cc1df6691eed.png",
+    "static/media/NewYok_1.png": "/landingpage/static/media/NewYok_1.bdeed59b5b1591e097c2.png",
+    "static/media/London_1.png": "/landingpage/static/media/London_1.05bc1080c72b9f3c4875.png",
+    "static/media/Tokyo_1.png": "/landingpage/static/media/Tokyo_1.b588a59e9d0d685829db.png",
+    "static/media/Tokyo_4.png": "/landingpage/static/media/Tokyo_4.17f75b6d93bc8c94b6e0.png",
+    "static/media/LosAngeles_4.png": "/landingpage/static/media/LosAngeles_4.0d1400ff7c494fa55c7b.png",
+    "static/media/London_3.png": "/landingpage/static/media/London_3.a3b42f095e12c2c39d67.png",
+    "static/media/LosAngeles_2.png": "/landingpage/static/media/LosAngeles_2.4baa48421e75f0d52f6a.png",
+    "static/media/London_2.png": "/landingpage/static/media/London_2.fa0c1ac8228d1bf37532.png",
+    "static/media/London_4.png": "/landingpage/static/media/London_4.d6bcd3c7702543f45680.png",
+    "static/media/Tokyo_3.png": "/landingpage/static/media/Tokyo_3.dbfd0dfc14c0095559ea.png",
+    "static/media/LosAngeles_3.png": "/landingpage/static/media/LosAngeles_3.1e5af80767e017330778.png",
+    "static/media/LosAngeles_1.png": "/landingpage/static/media/LosAngeles_1.0c37216a66de75f528bc.png",
+    "static/media/Tokyo_2.png": "/landingpage/static/media/Tokyo_2.39428f350c539c78eb89.png",
+    "static/media/NewYok_4.png": "/landingpage/static/media/NewYok_4.4c14eb9510b7e3ab61ec.png",
+    "index.html": "/landingpage/index.html",
+    "main.87a642d1.css.map": "/landingpage/static/css/main.87a642d1.css.map",
+    "main.38993623.js.map": "/landingpage/static/js/main.38993623.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87a642d1.css",
+    "static/js/main.38993623.js"
+  ]
+}
